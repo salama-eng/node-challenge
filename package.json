@@ -1,13 +1,21 @@
 {
-  "name": "blog",
+  "name": "protifilioexp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salama-eng/protifilioexp.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salama-eng/protifilioexp/issues"
+  },
+  "homepage": "https://github.com/salama-eng/protifilioexp#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2"
