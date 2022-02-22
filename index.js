@@ -13,7 +13,7 @@ app.set('views','view');
 app.listen("3001");
 app.use('/',express.static('view/css'));
 app.use('/images',express.static('view/images'));
-app.use('/',express.static('view/js'));
+
 app.use('/fontawesome',express.static('view/js/fontawesome'));
 app.get("/",(req,res)=>{
 res.render("index");
@@ -26,7 +26,7 @@ app.get('/about', (req, res)=> {
 });
 
 app.get('/contact', (req, res)=> {
-  res.render('contact');
+  res.render('about');
 });
 
 http.createServer((req, res) => {
