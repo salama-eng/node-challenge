@@ -29,15 +29,8 @@ app.get('/contact', (req, res)=> {
   res.render('about');
 });
 
-http.createServer((req, res) => {
-    if (req.url.startsWith('/admin')) {
-      if (req.url === '/admin') {
-        file('admin.html').pipe(res);
-      } else{
-        file('login.html').pipe(res);
-      }
-    
-   
-    }
 
-  });
+app.get('/admin', (req, res)=> {
+  res.render('admin');
+});
+
